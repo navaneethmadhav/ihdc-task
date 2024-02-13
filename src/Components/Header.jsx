@@ -6,15 +6,15 @@ import logo from '../Assets/Images/real-estate-house.png'
 const Header = () => {
   return (
     <div>
-        <div className="navbar">
-            <div className='navbar-content-wrapper'>
-                <div className="navbar-logo-wrapper">
+        <div className="header">
+            <div className='header-content-wrapper'>
+                <div className="header-logo-wrapper">
                     <img src={logo} alt="" />
                 </div>
-                <div className="navbar-name-wrapper">
+                <div className="header-name-wrapper">
                     <h1>XYZ SYSTEMS LLP .</h1>
                 </div>
-                <div className="hidden-navbar-content"></div>
+                <div className="hidden-header-content"></div>
             </div>
         </div>
     </div>
