@@ -6,6 +6,7 @@
     background-color: #fff;
     color: #000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
 .mobile-navbar {
@@ -71,23 +72,21 @@
 }
 
 .sidebar {
-    position: fixed;
-    top:-345px;
-    /* right: -300px; */
+    position: absolute;
+    top: 55px;
+    right: 100%;
     /* width: 300px; */
     width: 100%;
     /* height: 100%; */
     background-color: #fff;
-    transition: top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    transition: right 0.3s ease-in-out, opacity 0.3s ease-in-out;
     opacity: 1;
     overflow-y: scroll;
-    z-index: -1;
 }
 
 .sidebar.active {
-    /* right: 0; */
-    top: 145px;
-    z-index: -1;
+    right: 0;
+    /* top: 145px; */
 }
 
 .sidebar.inactive {
