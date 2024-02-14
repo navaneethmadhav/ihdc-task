@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200;1,200&display=swap');
+
+.form-header h1 {
+    color: #2EA6E5;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.benefits-container {
+    margin-top: 3rem;
+}
+
+.input-container {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.input-container h5 {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 1rem;
+}
+
+.ph_no-input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ph_no-input-container input {
+    width: 48%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.ph_no-input-container input:focus {
+    outline: none;
+}
+
+.input-text-container input {
+    width: 100%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.form-btn-container {
+    margin-top: 5rem;
+    text-align: left;
+}
+
+.form-btn-container button {
+    background-color: #61BAF5;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 5px 28px;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+
+.form-btn-container p {
+    margin-top: 2rem;
+}
+
+.benefits-image-container img {
+    width: 100%;
+}
+
+/* @media(min-width: 768px) and (max-width: 992px) {
+    .benefits-img-section {
+        height: 100%;
+    }
+
+    .benefits-image-container {
+        height: 100%;
+    }
+
+    .benefits-image-container img {
+        height: 100%;
+    }
+} */

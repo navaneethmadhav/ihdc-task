@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 
 import '../Styles/Features.css'
 import MembershipLogo from '../Assets/Images/membership-cropped.jpg'
+import FeatureSlider from './FeatureSlider'
 
 const Features = () => {
   return (
@@ -24,7 +25,7 @@ const Features = () => {
               <img src={MembershipLogo} alt="" />
             </div>
             <div className="community-join-btn">
-              <button className="beautiful-button">JOIN NOW</button>
+              <button className="join-button">JOIN NOW</button>
             </div>
           </div>
         </div>
@@ -32,7 +33,14 @@ const Features = () => {
         <div className="features-container">
           <div className="features-header-section">
             <h1>Unlock Premium Features Now</h1>
-            
+            <div className="fh_underline-wrapper">
+              <div className='underline'></div>
+              <div className='underline'></div>
+            </div>
+          </div>
+
+          <div className="features-slider-section">
+            <FeatureSlider />
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className={`navbar ${showSidebar ? 'mobile-navbar' : ''}`}>
+      <div className={`main-navbar ${showSidebar ? 'mobile-navbar' : ''}`}>
         <div className={`menu-icon ${showSidebar ? 'active' : ''}`} onClick={toggleSidebar}>
           <div className="bar"><FaBars /></div>
         </div>

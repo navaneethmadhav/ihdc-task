@@ -3,6 +3,13 @@ import './App.css';
 import Features from './Components/Features';
 import Header from './Components/Header';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import Benefits from './Components/Benefits';
+
 function App() {
   return (
     <div className="App">
@@ -10,6 +17,7 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' element={<Features />} />
+          <Route path='/exclusive-benefits' element={<Benefits />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;1,200&display=swap');
 
+
+.content-wrapper {
+    display: flex;
+}
+
 .membership-container {
     width: 40%;
 }
@@ -34,10 +39,10 @@
     width: 100%;
 }
 
-.beautiful-button {
+.join-button {
     position: relative;
     display: inline-block;
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(247, 247, 247) 0%, rgba(204,204,204,1) 70%);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgb(247, 247, 247) 0%, rgba(204, 204, 204, 1) 70%);
     color: #35776D;
     border: 1px solid grey;
     border-radius: 30px;
@@ -46,4 +51,28 @@
     width: 100%;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     font-size: 20px;
-  }
+}
+
+.features-container {
+    width: 60%;
+}
+
+.features-header-section {
+    font-family: "Karla", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #347b73;
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.fh_underline-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.underline {
+    border-bottom: 2px solid #ccc;
+    width: 50px;
+}
