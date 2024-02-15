@@ -19,6 +19,20 @@ const FeatureSlider = () => {
                     clickable: true,
                 }}
                 navigation={true}
+                breakpoints={{
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    768: {
+                        slidesPerView: 4,
+                        spaceBetween: 40,
+                    },
+                    1024: {
+                        slidesPerView: 5,
+                        spaceBetween: 50,
+                    },
+                }}
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
             >
@@ -30,7 +44,7 @@ const FeatureSlider = () => {
                             </div>
                         </div>
                         <div className="slider-content-section">
-
+                            <h3>Lower <br /> Interest Rates</h3>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -42,7 +56,7 @@ const FeatureSlider = () => {
                             </div>
                         </div>
                         <div className="slider-content-section">
-
+                            <h3>Interest <br /> Free Payments</h3>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -54,7 +68,7 @@ const FeatureSlider = () => {
                             </div>
                         </div>
                         <div className="slider-content-section">
-
+                            <h3>Discount on <br /> Materials</h3>
                         </div>
                     </div>
                 </SwiperSlide>

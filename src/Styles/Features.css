@@ -76,3 +76,35 @@
     border-bottom: 2px solid #ccc;
     width: 50px;
 }
+
+.features-slider-section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.features-btn-container {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.unlock-btn {
+    width: 50%;
+    border: 1px solid grey;
+    background: linear-gradient(130deg, rgba(40,184,156,1) 32%, rgba(198,197,197,0.9809173669467787) 53%, rgba(40,184,156,0.9445028011204482) 75%);
+    color: white;
+    padding: 8px;
+    border-radius: 30px;
+}
+
+.details-btn {
+    width: 30%;
+    border: 1px solid grey;
+    background: linear-gradient(130deg, rgba(40,184,156,1) 32%, rgba(198,197,197,0.9809173669467787) 53%, rgba(40,184,156,0.9445028011204482) 75%);
+    color: white;
+    padding: 8px;
+    border-radius: 30px;
+    margin-top: 2rem;
+}

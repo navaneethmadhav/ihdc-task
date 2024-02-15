@@ -42,6 +42,11 @@ const Features = () => {
           <div className="features-slider-section">
             <FeatureSlider />
           </div>
+
+          <div className="features-btn-container">
+            <button className='unlock-btn'>UNLOCK NOW</button>
+            <button className='details-btn'>DETAILS</button>
+          </div>
         </div>
       </div>
     </div>
