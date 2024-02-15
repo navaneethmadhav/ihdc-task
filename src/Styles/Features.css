@@ -108,3 +108,9 @@
     border-radius: 30px;
     margin-top: 2rem;
 }
+
+@media(max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+}
